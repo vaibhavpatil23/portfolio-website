@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Lora:ital,wght@1,500&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,800&family=Roboto+Slab:wght@400;500;600;900&family=Source+Code+Pro&family=Ubuntu:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.sitebar {
+  font-family: "Playfair Display", serif;
+  width: 434px;
+  background-color: #d2b6b6;
+  height: 100vh;
+}
+.sitebar nav {
+  padding: 45px;
+}
+.sitebar nav li {
+  list-style: none;
+  font-size: 25px;
+  padding: 30px 0;
+}
+.main {
+  /* background-color: aqua; */
+  width: 90vw;
+}
+.container {
+  display: flex;
+}
+.info {
+  /* background-color: darkmagenta; */
+  height: 58vh;
+  width: 80vw;
+  margin: 144px auto;
+  display: flex;
+  justify-content: space-around;
+}
+.devinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.devpic img {
+  height: 58vh;
+}
+.hello {
+  font-size: 65px;
+  font-family: "Source Code Pro", monospace;
+}
+.name {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+}
+.moreabout {
+  font-size: 22px;
+  font-family: "Playfair Display", serif;
+  margin-top: 23px;
+}
+.about {
+  font-size: 40px;
+}
+.buttons {
+  margin-top: 34px;
+}
+.btn {
+  padding: 9px 14px;
+  border-radius: 22px;
+  color: white;
+  background-color: blue;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.btn-sm {
+  font-size: 10px;
+  padding: 7px 12px;
+  margin: 10px 0;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.sitebar nav li a {
+  text-decoration: none;
+  color: black;
+}
+.contactform {
+  padding: 0 34px;
+  padding-top: 144px;
+  font-family: "Playfair Display", serif;
+}
+.contactform h1 {
+  font-family: "Lora", serif;
+  padding: 12px 0;
+}
+.contactform form div {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+.contactform form div input {
+  width: 16vw;
+  border-radius: 5px;
+  margin: 6px 0;
+  padding: 3px;
+}
+#emailHelp {
+  font-size: 11px;
+  color: midnightblue;
+  margin: 0 5px;
+  padding: 3px 0 0 0;
+}
+#form-check {
+  flex-direction: row;
+}
+#form-check-input {
+  width: 24px;
+  margin: 3px 0;
+}
+.blogitem {
+  margin: 20px;
+  font-family: "Roboto Slab", serif;
+}
+h1 {
+  font-family: "Roboto Slab", serif;
+  margin: 23px;
+}
+p {
+  font-family: "EB Garamond", serif;
+}
+.intro h2 {
+  font-family: "EB Garamond", serif;
+  margin: 12px;
+}
+.intro p {
+  font-family: "EB Garamond", serif;
+  margin: 12px;
+}
+.skillcontainer {
+  padding: 12px;
+}
+.skill {
+  width: 268px;
+  height: 16px;
+  margin: 10px 10px;
+  background-color: rgb(232, 104, 12);
+  border: 1px solid black;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.skillitem {
+  display: flex;
+  align-items: center;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+}
+.hund {
+  width: 265px;
+  background-color: aqua;
+}
+.fif {
+  width: 125px;
+  background-color: green;
+}
+.t5 {
+  width: 78px;
+  background-color: yellow;
+}
