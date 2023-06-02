@@ -107,9 +107,10 @@
 }
 .contactform form div input {
   /* width: 26vw; */
-  border-radius: 5px;
-  margin: 6px 0;
-  padding: 3px;
+  border-radius: 14px;
+  margin: 8px 0;
+  padding: 11px;
+  border: 2px solid black;
 }
 .contactform form {
  margin: 0 40px;
